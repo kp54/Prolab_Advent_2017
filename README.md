@@ -1,8 +1,11 @@
 # FizzBuzzで遊ぼう
-この文書は[Prolab Advent Calendar 2017](https://adventar.org/calendars/2526)の4日目として執筆されました.
+この文書は[Prolab Advent Calendar 2017](https://adventar.org/calendars/2526)の4日目として執筆されました.  
+前日は宮野さんです. [[ペンタブを買いました - Miyanoji Rapid](http://miyanojirapid.vsw.jp/tsurezure/2017/12/adventcalendar-12-3/)]  
+面白い記事を期待されているらしいですが僕は平常運行です. 申し訳ない.
 ## FizzBuzz [#とは](https://twitter.com/search?q=%23とは)
 [Fizz Buzz - Wikipedia](https://ja.wikipedia.org/wiki/Fizz_Buzz)  
-一人づつ1から順番に数字を読み上げていきますが, 3で割り切れる場合は代わりに'Fizz', 5で割り切れる場合は'Buzz', 15で割り切れる場合は'FizzBuzz' と発言するというゲームです. 初歩的なプログラミングの問題として扱われることも多々あります.  
+一人づつ1から順番に数字を読み上げていきますが, 3で割り切れる場合は代わりに'Fizz', 5で割り切れる場合は'Buzz', 15で割り切れる場合は'FizzBuzz' と発言するというゲームです.  
+初歩的なプログラミングの問題として扱われることも多々あります.  
 今回はこのFizzBuzzを題材として少しだけ遊んでみようと思います.
 ## 色々書いてみる
 ### #1
@@ -78,4 +81,5 @@ print()がNoneを返す(=Boolとして判定するとFalseになる)ことを利
 ```
 lambdaとifをうまく使うことでスッキリした見た目になりました.
 ## 最後に
-Pythonはちょっとしたデータ処理にかなり便利な言語なのでぜひ使いましょう.
+Pythonはちょっとしたデータ処理にかなり便利な言語なのでぜひ使いましょう.  
+翌日はふなちさんです. 色々と期待してます.
