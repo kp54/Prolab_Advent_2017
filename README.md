@@ -77,7 +77,7 @@ print()がNoneを返す(=Boolとして判定するとFalseになる)ことを利
 ### #7
 文字列連結とかしてみる.
 ```python
-[print(((lambda x:'' if x%3 else 'Fizz')(i)+(lambda x:'' if i%5 else 'Buzz')(i))or i)for i in range(1,16)]
+[print(((lambda x:'' if x%3 else 'Fizz')(i)+(lambda x:'' if x%5 else 'Buzz')(i))or i)for i in range(1,16)]
 ```
 lambdaとifをうまく使うことでスッキリした見た目になりました.
 ## 最後に
